@@ -15,12 +15,13 @@ import {
   NEW_MESSAGE_ALERT,
   ONLINE_USERS,
   START_TYPING,
-  STOP_TYPING,
+  STOP_TYPING, 
 } from "./constants/events.js";
 import { getSockets } from "./lib/helper.js";
 import { Message } from "./models/message.js";
 import { corsOptions } from "./constants/config.js";
 import { socketAuthenticator } from "./middlewares/auth.js";
+//kese ho
 
 import userRoute from "./routes/user.js";
 import chatRoute from "./routes/chat.js";
